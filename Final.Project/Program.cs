@@ -47,8 +47,6 @@ namespace Final.Project
                 lastName = Console.ReadLine();
             }
 
-            
-
             // Get Gender
             PrintSeparator("Gender");
             try
