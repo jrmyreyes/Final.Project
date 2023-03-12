@@ -1,5 +1,10 @@
 ﻿using System.Transactions;
-
+/*
+ * Author: Ron Jeremy Reyes
+ * Course: COMP-003A
+ * Purpose: Final Project
+ * 
+ */
 namespace Final.Project
 {
     internal class Program
