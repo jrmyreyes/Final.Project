@@ -10,6 +10,7 @@ namespace Final.Project
         } 
         // end main
 
+        // methods start
         /// <summary>
         /// Asks for user's Name
         /// </summary>
