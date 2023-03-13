@@ -30,7 +30,7 @@ namespace Final.Project
             {
                 Console.WriteLine("\nInput cannot contain null/empty/numbers/special characters!");
                 Console.WriteLine("Please Try Again..." + "\n".PadRight(60, '_'));
-
+                ClearLine();
                 Console.Write("\nEnter First Name: ");
                 firstName = Console.ReadLine();
             }
@@ -206,6 +206,13 @@ namespace Final.Project
         static void PrintSeparator(string header)
         {
             Console.WriteLine("".PadRight(50, '*') + $"\n\t{header} - Section\n" + "".PadRight(50, '*'));
+        }
+
+        public static void ClearLine()
+        {
+            Console.SetCursorPosition(0, Console.CursorTop - 3);
+            Console.Write(new string(' ', Console.WindowWidth));
+            Console.SetCursorPosition(0, Console.CursorTop - 3);
         }
 
         /// <summary>
